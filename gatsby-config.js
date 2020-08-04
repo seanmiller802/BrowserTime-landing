@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
-        description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        title: `BrowserTime`,
+        description: `Turn your browser history into a productivity tool.`,
+        author: `Sean Miller`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -21,10 +21,10 @@ module.exports = {
                 name: `gatsby-starter-default`,
                 short_name: `starter`,
                 start_url: `/`,
-                background_color: `#663399`,
+                background_color: `#000000`,
                 theme_color: `#FF54AC`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/histaff.png`, // This path is relative to the root of the site.
+                icon: `${__dirname}/static/images/favicon.ico`, // This path is relative to the root of the site.
             },
         },
         `gatsby-plugin-sass`,

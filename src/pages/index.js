@@ -1,21 +1,20 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import featureImage from "../../static/images/dashboard-dark.png";
+import thumbnailUI from "../../static/images/ui.png"
+import thumbnailInsights from "../../static/images/insights.png"
+import thumbnailThemes from "../../static/images/themes.png"
+import thumbnailManage from "../../static/images/manage.png"
+import thumbnailPrivate from "../../static/images/private.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Turn your browser history into a productivity tool."/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>Turn your browser history into a productivity tool</h1>
+            <p>BrowserTime unlocks insights about how you spend your time on the web.<br/>Get a weekly breakdown of your most popular sites, categories, browsing hours, and more.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -23,33 +22,16 @@ const IndexPage = () => (
             <div className={"features"}>
                 <div className={"feature__item"}>
                     <div className={"row"}>
-                        <div className={"col-6 first"}>
+                        <div className={"col-6"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <img alt={"Event"} src={thumbnailUI}/>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailBoard}/>
+                            <div className={"feature__content"}>
+                                <h2>A beautiful UI</h2>
+                                <p>Easily search, filter, and manage your browser history with our redesigned history page.</p>
                             </div>
                         </div>
                     </div>
@@ -58,15 +40,15 @@ const IndexPage = () => (
                 <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailNews}/>
+                            <div className={"feature__content"}>
+                                <h2>Customize</h2>
+                                <p>Choose from 7 custom UI themes.</p>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                            <div className={"thumbnail"}>
+                                <img alt={"Board"} src={thumbnailThemes}/>
                             </div>
                         </div>
                     </div>
@@ -75,48 +57,69 @@ const IndexPage = () => (
                 <div className={"feature__item"}>
                     <div className={"row"}>
                         <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                            <div className={"thumbnail"}>
+                                <img alt={"Users"} src={thumbnailPrivate}/>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                            <div className={"feature__content"}>
+                                <h2>No tracking</h2>
+                                <p>Absolutey no tracking or invasions of privacy, ever.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                 <div className={"feature__item"}>
+                    <div className={"row"}>
+
+                        <div className={"col-6 first"}>
+                            <div className={"feature__content"}>
+                                <h2>Manage</h2>
+                                <p>Easily manage your browsing data.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-6"}>
+                            <div className={"thumbnail"}>
+                                <img alt={"Users"} src={thumbnailManage}/>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
                 <div className={"feature__item"}>
                     <div className={"row"}>
-                        <div className={"col-6 first"}>
+
+                         <div className={"col-6"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
+                                <img alt={"News"} src={thumbnailInsights}/>
                             </div>
                         </div>
 
-                        <div className={"col-6"}>
+                         <div className={"col-6 first"}>
                             <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
+                                <h2>Insights</h2>
+                                <p>Learn about your browsing history.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <h2>Add to Chrome for only $1</h2>
+                    <p>Sign up and start increasing the productivity of your browsing with BrowserTime.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <a href="#" target={"_blank"}>Add to Chrome</a>
                 </div>
             </div>
         </div>
