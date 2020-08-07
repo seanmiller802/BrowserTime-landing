@@ -45,6 +45,22 @@ body {
           color: #FFFFFF;
         }
       }
+
+      @media screen and (max-width: $break-small) {
+
+        .logo {
+          img {
+            max-width: 150px;
+          }
+        }
+
+        .get-started {
+          a {
+            padding: 10px;
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 
@@ -96,7 +112,7 @@ body {
       }
 
       img {
-        max-width: 80%;
+        max-width: 95%;
       }
     }
   }
