@@ -47,7 +47,6 @@ body {
       }
 
       @media screen and (max-width: $break-small) {
-
         .logo {
           img {
             max-width: 150px;
@@ -107,8 +106,14 @@ body {
       padding-top: 1px;
       padding-bottom: 50px;
 
-      h1, h2 {
+      h1 {
         padding-top: 0;
+        font-size: 42px;
+      }
+
+      h2 {
+        padding-top: 0;
+        font-size: 30px;
       }
 
       img {
