@@ -14,7 +14,7 @@ const IndexPage = () => (
 
         <div className={"page-header home"}>
             <h1>Turn your browser history into a productivity tool</h1>
-            <p>BrowserTime unlocks insights about how you spend your time on the web.<br/>Get a weekly breakdown of your most popular sites, categories, browsing hours, and more.</p>
+            <p>BrowserTime unlocks insights about how you spend your time on the web.<br/>Get a weekly report of your most popular sites, categories, browsing hours, and more.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -31,7 +31,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"feature__content"}>
                                 <h2>A beautiful UI</h2>
-                                <p>Easily search, filter, and manage your browser history with our redesigned history page.</p>
+                                <p>Easily search, filter, and manage your browser history with an optimized history page.</p>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const IndexPage = () => (
                         <div className={"col-6 first"}>
                             <div className={"feature__content"}>
                                 <h2>Customize</h2>
-                                <p>Choose from 7 custom UI themes.</p>
+                                <p>Choose from 7 unique themes.</p>
                             </div>
                         </div>
 
@@ -102,7 +102,7 @@ const IndexPage = () => (
                          <div className={"col-6 first"}>
                             <div className={"feature__content"}>
                                 <h2>Insights</h2>
-                                <p>Learn about your browsing history.</p>
+                                <p>Learn how your spend your time on the web.</p>
                             </div>
                         </div>
                     </div>
