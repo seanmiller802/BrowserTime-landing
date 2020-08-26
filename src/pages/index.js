@@ -114,7 +114,7 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Add to Chrome for only $1</h2>
+                    <h2>Add to Chrome for free</h2>
                     <p>Start increasing the productivity of your browsing with BrowserTime.</p>
                 </div>
 
