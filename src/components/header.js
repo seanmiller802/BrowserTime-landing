@@ -13,7 +13,7 @@ const Header = () => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"#"}>Add to Chrome for $1</a>
+                    <a href={"https://chrome.google.com/webstore/detail/browsertime/gaafojlhhgdkcjiglocphepomogeagie/"}>Add to Chrome for $1</a>
                 </div>
             </div>
         </div>

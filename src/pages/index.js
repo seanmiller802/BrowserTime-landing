@@ -119,7 +119,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="#" target={"_blank"}>Add to Chrome</a>
+                    <a href="https://chrome.google.com/webstore/detail/browsertime/gaafojlhhgdkcjiglocphepomogeagie/" target={"_blank"}>Add to Chrome</a>
                 </div>
             </div>
         </div>
